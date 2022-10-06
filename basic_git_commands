@@ -86,6 +86,10 @@ step wise commands to setup git in window or linux----->
 1. git clone <url of github repo>
 
 
+1. git push --set-upstream origin main
+
+
+
 
 
 
