@@ -1,0 +1,123 @@
+step wise commands to setup git in window or linux----->
+
+1.make a dir--> mkdir git
+
+2.git init ---> to initilize git personal directory
+
+3. git --version 
+
+4.git config --global user.name "your name"
+
+5.git config --global user.email "your eamil"
+
+6.git status
+
+7.git add .
+
+8. git commit -m " your message"
+
+9.git log ----> give info who is commit the code 
+
+10.git show <commit id> -----> information about the commit
+
+11.git remote add origin <git repo url>
+
+12.git push -u origin master 
+
+    then you need to enter your github id and password to push the  code on particular repo
+
+13. git pull -u origin master  -----> first you need to give the url of that repo by above command
+
+     
+------------>some other commands you need to know<---------------
+
+
+1. vi .gitignore  ------> enter the files in it to ignore it from committing
+
+2. git add .gitignore
+
+3. git log --grep "<search keyword>"
+4. git log --oneline --->no. of commits
+
+5.git branch --->to see the list of branch
+
+6.git branch <branch name>
+
+7.git checkout <branchname> -----> to switch the branch
+
+8.git branch -d <branchname> ----> to  delete the particular branch before merge
+
+9.git branch -D <branchname> ----> to  delete the particular branch after merge
+
+10.git merge <branch name>
+
+11.git reset <filename> ------->to delete the file from staging area
+
+12.git reset .
+
+13. git reset --hard ----> to remove file from staging area and workspace
+
+14.git clean -n or -f <-------to remove untrackedand useless  files from workspace 
+
+15. git tag -a <tagname> -m <message> <commit id>
+----------->git stash<-----------
+
+1.git stash <-----to stash an item
+2. git stash list
+3.git stash apply stash@{0} <----to back up the file in workspace from stash
+4.git stash clear 
+
+
+------------------->git revert and tag commands<---------------------
+
+1.git revert <commit id>  -------------->to undo an existing commit
+
+2.git tag -a <tagname> -m <message> <commit id> ---------------> to apply tag
+
+3.git tag  ------> to see the list of tag
+
+4.git show <tagname>
+
+5. git tag -d <tagname> ----------------->to delete a tag
+
+
+
+--------------------------->git clone<--------------------------
+1. git clone <url of github repo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
